@@ -1,0 +1,3 @@
+\ProvidesFile{insignia.fd}[Insignia Font]
+\DeclareFontFamily{T1}{insignia}{}
+\DeclareFontShape{T1}{insignia}{m}{n}{ <-> insignia}{}

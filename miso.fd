@@ -1,0 +1,3 @@
+\ProvidesFile{miso.fd}[Miso Font]
+\DeclareFontFamily{T1}{miso}{}
+\DeclareFontShape{T1}{miso}{m}{n}{ <-> miso}{}
