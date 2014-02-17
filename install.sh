@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo "DOMINATRIX PACKAGE INSTALLATION SCRIPT"
-echo "This bash script copies the dominatrix package files to your LaTeX user folder. You may be prompted for your system password to enable copying."
+echo "OL FONTS INSTALLATION SCRIPT"
+echo "This bash script copies the OL font files to your LaTeX user folder. You may be prompted for your system password to enable copying."
 
 # Use the inbuilt kpsewhich function to hunt down the system texmf directory
 echo "Detecting TeX directory..."
@@ -22,10 +22,8 @@ else
 
   # Recursively copy the appropriate directories in the current directory to the system directory
   echo "Copying files..."
-  sudo cp -R -p ${0%/*}/dominatrix $TEXDIR/tex/latex/
-  echo "Copying dominatrix..."
-  sudo cp -R -p ${0%/*}/atbeginend $TEXDIR/tex/latex/
-  echo "Copying atbeginend..."
+  sudo cp -R -p ${0%/*}/bigdaddy $TEXDIR/tex/latex/
+  echo "Copying bigdaddy..."
 
   echo "Done!"
 fi
@@ -33,4 +31,4 @@ fi
 echo "Rehashing TeX packages so the system sees the new package"
 sudo texhash
 
-echo "Done! Exiting..."
+echo "Installation successful. You can now put \usepackage{bigdaddy} in your preamble and enjoy."

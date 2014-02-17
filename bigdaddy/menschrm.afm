@@ -1,5 +1,5 @@
 StartFontMetrics 2.0
-Comment Converted at Sun Feb 16 19:03:50 2014 by ttf2afm from font file `mensch.ttf'
+Comment Converted at Mon Feb 17 01:55:07 2014 by ttf2afm from font file `menschrm.ttf'
 FontName Mensch-Regular
 FullName Mensch Regular
 FamilyName Mensch
@@ -122,7 +122,7 @@ C 109 ; WX 602 ; N m ; B 53 0 554 560 ;
 C 110 ; WX 602 ; N n ; B 95 0 513 560 ;
 C 111 ; WX 602 ; N o ; B 66 -14 535 560 ;
 C 112 ; WX 602 ; N p ; B 92 -208 541 560 ;
-C 113 ; WX 602 ; N q ; B 66 -211 580 558 ;
+C 113 ; WX 602 ; N q ; B 66 -210 580 558 ;
 C 114 ; WX 602 ; N r ; B 176 0 563 560 ;
 C 115 ; WX 602 ; N s ; B 104 -14 502 560 ;
 C 116 ; WX 602 ; N t ; B 63 0 503 702 ;
@@ -1029,7 +1029,7 @@ C -1 ; WX 602 ; N uni04F9 ; B 50 0 551 757 ;
 C -1 ; WX 602 ; N uni0510 ; B 66 -14 526 742 ;
 C -1 ; WX 602 ; N uni0511 ; B 82 -10 519 560 ;
 C -1 ; WX 602 ; N uni051A ; B 57 -82 556 742 ;
-C -1 ; WX 602 ; N uni051B ; B 66 -211 580 558 ;
+C -1 ; WX 602 ; N uni051B ; B 66 -210 580 558 ;
 C -1 ; WX 602 ; N uni051C ; B 0 0 602 729 ;
 C -1 ; WX 602 ; N uni051D ; B 0 0 602 546 ;
 C -1 ; WX 602 ; N uni10D0 ; B 78 0 524 559 ;

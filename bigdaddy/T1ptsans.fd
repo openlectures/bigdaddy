@@ -1,0 +1,4 @@
+\ProvidesFile{T1ptsans.fd}[PT Sans Font]
+\DeclareFontFamily{T1}{ptsans}{}
+\DeclareFontShape{T1}{ptsans}{m}{n}{ <-> ptsansrm}{}
+\DeclareFontShape{T1}{ptsans}{b}{n}{ <-> ptsansbn}{}

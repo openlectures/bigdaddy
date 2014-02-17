@@ -1,3 +1,0 @@
-\ProvidesFile{mensch.fd}[Mensch Font]
-\DeclareFontFamily{T1}{mensch}{}
-\DeclareFontShape{T1}{mensch}{m}{n}{ <-> mensch}{}

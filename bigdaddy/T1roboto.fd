@@ -1,0 +1,4 @@
+\ProvidesFile{T1roboto.fd}[Roboto Slab Font]
+\DeclareFontFamily{T1}{roboto}{}
+\DeclareFontShape{T1}{roboto}{m}{n}{ <-> robotorm}{}
+\DeclareFontShape{T1}{roboto}{b}{n}{ <-> robotobn}{}
