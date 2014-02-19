@@ -12,17 +12,21 @@
 {
   % Change the fonts for section and subsection to PT Sans
   \usepackage{titlesec}
-  \titleformat*{\section}{\fontfamily{ptsans}\selectfont\Large}
-  \titleformat*{\subsection}{\fontfamily{ptsans}\selectfont\large}
+  \titleformat*{\section}{\fontfamily{miso}\selectfont\Large}
+  \titleformat*{\subsection}{\fontfamily{miso}\selectfont\large}
 
   % Change the font for the \maketitle block to PT Sans
   \usepackage{titling}
-  \renewcommand{\maketitlehooka}{\fontfamily{ptsans}\selectfont\Huge}
+  \renewcommand{\maketitlehooka}{\fontfamily{miso}\selectfont\Huge}
 }
 {
   % Because we're using KOMA-Script, do the above using KOMA functions instead
-  \setkomafont{title}{\fontfamily{ptsans}\selectfont}
+  \setkomafont{title}{\fontfamily{miso}\selectfont}
   \setkomafont{sectioning}{\usekomafont{title}}
   \setkomafont{descriptionlabel}{\usekomafont{title}}
   \setkomafont{pagefoot}{\usekomafont{title}}
 }
+
+% Use the microtype package to fix the spacing after the 'c' in Miso
+\usepackage[kerning=true]{microtype}
+\SetExtraKerning{encoding={*},family={miso}}{c={,-80}}
